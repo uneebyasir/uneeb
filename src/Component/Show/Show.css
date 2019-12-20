@@ -1,0 +1,24 @@
+/* #slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    padding: 10px;
+    
+  }
+  
+  #slideshow > div {
+position: fixed;
+ 
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+   .img{
+    width: 445px;
+    margin-top:5%
+}
+.slide{
+    width: 500px ;
+} */

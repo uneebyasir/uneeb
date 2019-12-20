@@ -1,0 +1,88 @@
+
+
+
+
+@keyframes changeLetter {
+    0% {
+      content: "Uneeb";
+    }
+    50% {
+      color: white;
+    }
+    100% {
+      content: "ADEEL";
+    }
+  }
+  
+  .element {
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+    min-height: 100vh;
+    
+    /* position: relative; */
+    /* z-index: 9999; */
+   
+  }
+    .element:after {
+      animation: changeLetter 3s linear  alternate;
+      display: block;
+       content: "";
+      font-size: 80px;
+      
+      
+
+     
+    }
+   .tv{
+     padding: 0;
+   }
+
+    
+   .slot {
+    background-color:lightseagreen;
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0%;
+    left:0%;
+    width:100%;
+    z-index:9999;
+    
+    overflow: hidden; 
+    animation:transform 5s;
+    animation-duration:3s;
+    transition: .5s ease-in; 
+    webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+   }
+    /* @keyframes transform {
+    0% {
+    
+       transform: translateX(-100%);
+   
+    }
+    50%{
+    
+      transform: translateX(-0%);
+      
+    } 
+    100%{
+    
+  
+      transform: translateX(-100%);
+      
+     
+     
+    }
+  }  */
+   
+ 
+  
+
+      
+     
+    /* }
+  }
+    */

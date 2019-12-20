@@ -1,0 +1,22 @@
+  form {
+    max-width: 500px; 
+    margin: auto; 
+    padding: 50px;
+    background: turquoise;
+    border: 10px solid #f2f2f2; 
+    
+        display: inline-block;
+        margin-top: 9%;
+
+  } 
+   
+   input, textarea {
+    width: 100%;
+ 
+   
+   }
+button.btn.btn-default {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
